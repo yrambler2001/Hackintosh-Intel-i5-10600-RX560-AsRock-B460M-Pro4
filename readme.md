@@ -28,13 +28,14 @@ Case + PSU: Gamemax ET-211-450 450W Black
 
 # Result
 
-![Info](/images/info.png)
+![Info](/images/info.jpg)
+Geekbench 5 https://browser.geekbench.com/v5/cpu/3174324
 
 Cinebench R20 Multi Core
-![Cinebench](/images/cb-mc.png)
+![Cinebench](/images/cb-mc.jpg)
 
 Cinebench R20 Single Core
-![Cinebench](/images/cb-sc.png)
+![Cinebench](/images/cb-sc.jpg)
 
 # Note
 
