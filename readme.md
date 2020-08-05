@@ -6,7 +6,7 @@
 MB: AsRock B460M Pro4 $110
 CPU: Intel® Core™ i5-10600 $265
 VGA: Intel UHD Graphics 630 $0
-RAM: 24GB HyperX DDR4 16GB+8GB 3200Mhz FURY Black $120
+RAM: 24GB HyperX DDR4 16GB+8GB 3200Mhz@2666MHz FURY Black $120
 SSD: Kingston A400 480GB SA400S37 $60
 Bluetooth: Asus USB-BT400 $10
 Case + PSU: Gamemax ET-211-450 450W Black $28
