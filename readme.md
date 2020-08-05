@@ -31,7 +31,7 @@ Case + PSU: Gamemax ET-211-450 450W Black $28
 ![Info](/images/info.jpg)
 Geekbench 5 https://browser.geekbench.com/v5/cpu/3174324
 
-Geekbench 5 + AsRock BFB 125W
+Geekbench 5 + AsRock BFB 125W https://browser.geekbench.com/v5/cpu/3180343
 https://www.asrock.com/microsite/2020BFB/
 https://www.ixbt.com/news/2020/05/17/asrock-bfb-core-i5-9400.html
 ![Geekbench](/images/gb-BFB125.png)
