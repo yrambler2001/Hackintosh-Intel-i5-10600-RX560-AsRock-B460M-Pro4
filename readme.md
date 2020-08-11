@@ -45,6 +45,9 @@ Cinebench R20 Multi Core + AsRock BFB 125W
 Cinebench R20 Single Core
 ![Cinebench](/images/cb-sc.jpg)
 
+Geekbench 5 iGPU https://browser.geekbench.com/v5/compute/1327011
+![Cinebench](/images/gpu_test.png)
+
 # Note
 
 The file config.plist. Please change MLB, SystemSerialNumber, SystemUUID into your code
