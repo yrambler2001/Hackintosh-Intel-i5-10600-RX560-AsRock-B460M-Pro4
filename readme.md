@@ -50,7 +50,39 @@ Geekbench 5 iGPU https://browser.geekbench.com/v5/compute/1327011
 
 # Note
 
-The file config.plist. Please change MLB, SystemSerialNumber, SystemUUID into your code
+
+The file config.plist.
+
+The config is configured to use two monitors (one is connected to HDMI port, second is connected to DP port using DP-HDMI adapter and HDMI-HDMI cable)
+
+If you use DisplayPort connector and experience issues with it please try to change these lines:
+
+```
+<key>framebuffer-con2-type</key>
+<data>
+AAgAAA==
+</data>
+```
+
+into these
+
+```
+<key>framebuffer-con2-type</key>
+<data>
+AAQAAA==
+</data>
+```
+
+Please try to remove these lines if you use single display/changing resolution/connecting and disconnecting displays and experience issues:
+
+```
+<key>framebuffer-con1-flags</key>
+<data>zwMAAA==</data>
+<key>framebuffer-con2-flags</key>
+<data>zwMAAA==</data>
+```
+
+Please change MLB, SystemSerialNumber, SystemUUID into your code:
 
 ```
 <dict>
