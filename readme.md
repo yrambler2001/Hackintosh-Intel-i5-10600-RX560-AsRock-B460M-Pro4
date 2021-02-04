@@ -9,6 +9,7 @@
 MB: AsRock B460M Pro4 $110
 CPU: Intel® Core™ i5-10600 $265
 VGA: Intel UHD Graphics 630 $0
+VGA: Sapphire RX560 Pulse OC 2GB Used $65
 RAM: 24GB HyperX DDR4 16GB+8GB 3200Mhz@2666MHz FURY Black $120
 SSD: Kingston A400 480GB SA400S37 $60
 Bluetooth: Asus USB-BT400 $10
@@ -28,9 +29,11 @@ Case + PSU: Gamemax ET-211-450 450W Black $28
 - Bluetooth
 - DisplayPort + HDMI simultaneously
 - All USB ports (Full 3.0 + 2.0 + type C)
+- Both motherboard and rx560 ports simultaneously
 
 # Result
 
+![Info](/images/info.png)
 ![Info](/images/info.jpg)
 Geekbench 5 https://browser.geekbench.com/v5/cpu/3174324
 
@@ -55,6 +58,30 @@ Geekbench 5 iGPU https://browser.geekbench.com/v5/compute/1327011
 
 
 The file config.plist.
+
+Please change MLB, SystemSerialNumber, SystemUUID into your code:
+
+```
+<dict>
+    <key>AdviseWindows</key>
+    <false/>
+    <key>MLB</key>
+    <string>xxxxxxxxxxxxxxx</string>
+    <key>ROM</key>
+    <data>ESIzRFVm</data>
+    <key>SpoofVendor</key>
+    <true/>
+    <key>SystemProductName</key>
+    <string>iMac19,1</string>
+    <key>SystemSerialNumber</key>
+    <string>xxxxxxxxxxx</string>
+    <key>SystemUUID</key>
+    <string>xxxxxxxx-xxxxx-xxxxx-xxxx-xxxxxxxx</string>
+</dict>
+```
+
+
+BELOW IGPU ONLY FIXES:
 
 The config is configured to use two monitors (one is connected to HDMI port, second is connected to DP port using DP-HDMI adapter and HDMI-HDMI cable)
 
@@ -83,25 +110,4 @@ Please try to remove these lines if you use single display/changing resolution/c
 <data>zwMAAA==</data>
 <key>framebuffer-con2-flags</key>
 <data>zwMAAA==</data>
-```
-
-Please change MLB, SystemSerialNumber, SystemUUID into your code:
-
-```
-<dict>
-    <key>AdviseWindows</key>
-    <false/>
-    <key>MLB</key>
-    <string>xxxxxxxxxxxxxxx</string>
-    <key>ROM</key>
-    <data>ESIzRFVm</data>
-    <key>SpoofVendor</key>
-    <true/>
-    <key>SystemProductName</key>
-    <string>iMac19,1</string>
-    <key>SystemSerialNumber</key>
-    <string>xxxxxxxxxxx</string>
-    <key>SystemUUID</key>
-    <string>xxxxxxxx-xxxxx-xxxxx-xxxx-xxxxxxxx</string>
-</dict>
 ```
