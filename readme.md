@@ -1,5 +1,8 @@
-# Hackintosh-Intel-i5-10600-iGPU-AsRock-B460M-Pro4
+# Hackintosh-Intel-i5-10600-iGPU-or-RX560-AsRock-B460M-Pro4
 
+[iGPU tree link](/yrambler2001/Hackintosh-Intel-i5-10600-iGPU-AsRock-B460M-Pro4/tree/IGPU)
+
+[RX560 tree link](/yrambler2001/Hackintosh-Intel-i5-10600-iGPU-AsRock-B460M-Pro4/tree/master)
 # Info PC
 
 ```
