@@ -2,3 +2,6 @@ opencore*txt
 .DS_Store
 *fsevent*
 uuid-copypaste
+.Spotlight*
+$RECYCLE.BIN
+.Trashes
