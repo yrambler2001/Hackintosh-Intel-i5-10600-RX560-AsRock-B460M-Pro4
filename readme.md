@@ -1,7 +1,7 @@
-# Hackintosh-Intel-i5-10600-iGPU-or-RX560-AsRock-B460M-Pro4
-[iGPU tree link](https://github.com/yrambler2001/Hackintosh-Intel-i5-10600-iGPU-AsRock-B460M-Pro4/tree/IGPU)
+# Hackintosh-Intel-i5-10600-RX560-AsRock-B460M-Pro4
+Big Sur
 
-[RX560 tree link](https://github.com/yrambler2001/Hackintosh-Intel-i5-10600-iGPU-AsRock-B460M-Pro4/tree/master)
+Catalina is on the catalina branch
 # Info PC
 
 ```
@@ -15,7 +15,7 @@ Bluetooth: Asus USB-BT400 $10
 Case + PSU: Gamemax ET-211-450 450W Black $28
 ```
 
-# Hackintosh + OpenCore (Supported version: 0.6.0)
+# Hackintosh + OpenCore
 
 - https://dortania.github.io/OpenCore-Desktop-Guide
 
@@ -55,7 +55,6 @@ Geekbench 5 iGPU https://browser.geekbench.com/v5/compute/1327011
 
 # Note
 
-
 The file config.plist.
 
 Please change MLB, SystemSerialNumber, SystemUUID into your code:
@@ -64,49 +63,23 @@ Please change MLB, SystemSerialNumber, SystemUUID into your code:
 <dict>
     <key>AdviseWindows</key>
     <false/>
+    <key>MaxBIOSVersion</key>
+    <false/>
     <key>MLB</key>
     <string>xxxxxxxxxxxxxxx</string>
+    <key>ProcessorType</key>
+    <integer>0</integer>
     <key>ROM</key>
     <data>ESIzRFVm</data>
     <key>SpoofVendor</key>
     <true/>
+    <key>SystemMemoryStatus</key>
+    <string>Auto</string>
     <key>SystemProductName</key>
-    <string>iMac19,1</string>
+    <string>iMac20,1</string>
     <key>SystemSerialNumber</key>
     <string>xxxxxxxxxxx</string>
     <key>SystemUUID</key>
     <string>xxxxxxxx-xxxxx-xxxxx-xxxx-xxxxxxxx</string>
 </dict>
-```
-
-
-BELOW IGPU ONLY FIXES:
-
-The config is configured to use two monitors (one is connected to HDMI port, second is connected to DP port using DP-HDMI adapter and HDMI-HDMI cable)
-
-If you use DisplayPort connector and experience issues with it please try to change these lines:
-
-```
-<key>framebuffer-con2-type</key>
-<data>
-AAgAAA==
-</data>
-```
-
-into these
-
-```
-<key>framebuffer-con2-type</key>
-<data>
-AAQAAA==
-</data>
-```
-
-Please try to remove these lines if you use single display/changing resolution/connecting and disconnecting displays and experience issues:
-
-```
-<key>framebuffer-con1-flags</key>
-<data>zwMAAA==</data>
-<key>framebuffer-con2-flags</key>
-<data>zwMAAA==</data>
 ```
