@@ -10,12 +10,12 @@ CPU: Intel® Core™ i5-10600 $265
 VGA: Intel UHD Graphics 630 $0
 VGA: Sapphire RX560 Pulse OC 2GB Used $65
 RAM: 24GB HyperX DDR4 16GB+8GB 3200Mhz@2666MHz FURY Black $120
-SSD: Kingston A400 480GB SA400S37 $60
+SSD: Samsung 970 EVO 500GB used $65
 Bluetooth: Asus USB-BT400 $10
 Case + PSU: Gamemax ET-211-450 450W Black $28
 ```
 
-# Hackintosh + OpenCore
+# Hackintosh + OpenCore 0.6.6
 
 - https://dortania.github.io/OpenCore-Desktop-Guide
 
@@ -33,6 +33,7 @@ Case + PSU: Gamemax ET-211-450 450W Black $28
 # Result
 
 ![Info](/images/info.png)
+![Info](/images/ssd.png)
 ![Info](/images/info.jpg)
 Geekbench 5 https://browser.geekbench.com/v5/cpu/3174324
 
