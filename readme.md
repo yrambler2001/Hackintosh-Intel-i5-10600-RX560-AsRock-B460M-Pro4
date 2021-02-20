@@ -1,7 +1,5 @@
 # Hackintosh-Intel-i5-10600-iGPU-or-RX560-AsRock-B460M-Pro4
-[iGPU tree link](https://github.com/yrambler2001/Hackintosh-Intel-i5-10600-iGPU-AsRock-B460M-Pro4/tree/IGPU)
-
-[RX560 tree link](https://github.com/yrambler2001/Hackintosh-Intel-i5-10600-iGPU-AsRock-B460M-Pro4/tree/master)
+This is iGPU Catalina branch. RX560 Catalina branch is on catalina-rx560
 # Info PC
 
 ```
