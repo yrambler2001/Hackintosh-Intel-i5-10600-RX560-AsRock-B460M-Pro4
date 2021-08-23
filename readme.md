@@ -11,8 +11,10 @@ VGA: Intel UHD Graphics 630 $0
 VGA: Sapphire RX560 Pulse OC 2GB Used $65
 RAM: 24GB HyperX DDR4 16GB+8GB 3200Mhz@2666MHz FURY Black $120
 SSD: Samsung 970 EVO 500GB used $65
-Bluetooth: Asus USB-BT400 $10
-Case + PSU: Gamemax ET-211-450 450W Black $28
+Bluetooth & Wi-Fi: Fenvi FV-T919 $50
+Case + PSU: Gamemax ET-211-450 Black $28
+PSU: AeroCool 400W VX PLUS $20
+Cooler: AeroCool Verkho 3 $15
 ```
 
 # Hackintosh + OpenCore 0.6.6
