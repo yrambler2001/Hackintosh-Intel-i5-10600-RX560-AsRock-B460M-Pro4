@@ -6,7 +6,7 @@ Catalina is on the catalina branch
 
 ```
 MB: AsRock B460M Pro4 $110
-CPU: Intel® Core™ i5-10600 $265
+CPU: Intel® Core™ i5-10600 $265 or Intel® Core™ i5-10600K 1300CNY
 VGA: Intel UHD Graphics 630 $0
 VGA: Sapphire RX560 Pulse OC 2GB Used $65
 RAM: 24GB HyperX DDR4 16GB+8GB 3200Mhz@2666MHz FURY Black $120
@@ -34,7 +34,13 @@ Cooler: AeroCool Verkho 3 $15
 
 # Result
 
+
+* Intel i5-10600
 ![Info](/images/info.png)
+
+* Intel i5-10600K
+![Info](/images/info_1.png)
+
 ![Info](/images/ssd.png)
 ![Info](/images/info.jpg)
 Geekbench 5 https://browser.geekbench.com/v5/cpu/3174324
